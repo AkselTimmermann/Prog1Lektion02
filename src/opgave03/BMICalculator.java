@@ -19,5 +19,7 @@ public class BMICalculator {
 
         //Udskriv BMI
         System.out.println("BMI er = " + bmi);
+
+        input.close();
     }
 }

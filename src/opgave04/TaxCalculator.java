@@ -10,6 +10,8 @@ public class TaxCalculator {
         int tax = calculateTax(income);
         int monthly = tax / 12;
         System.out.println("Årlig skat er " + tax + " Månedlig skat er " + monthly );
+
+        scanner.close();
     }
 
     public static int calculateTax(int monthlyIncome) {

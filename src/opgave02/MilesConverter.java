@@ -14,5 +14,7 @@ public class MilesConverter {
 
         //Udksriv antal kilometer med 1 decimal
         System.out.printf(antalMil + " mil er %.1f km", kilometer);
+
+        input.close();
     }
 }

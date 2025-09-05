@@ -13,6 +13,8 @@ public class CalculateVat {
         //Beregn moms af beløbet
         double moms = beløb * 0.25;
         //Udskriv moms beløbet
-        System.out.println("moms af beløbet" + beløb + "er = " + moms + "kr");
+        System.out.println("moms af beløbet " + beløb + "er = " + moms + "kr");
+
+        input.close(); //Lukker Scanner input efter brug
     }
 }
